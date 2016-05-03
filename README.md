@@ -45,4 +45,4 @@ stack exec -- FlipIt-exe 3 6
 
 ## Author
 
-[Toru Mano](https://github.com/toru-manoa)
+[Toru Mano](https://github.com/toru-mano)
