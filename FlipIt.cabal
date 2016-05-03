@@ -2,13 +2,13 @@ name:                FlipIt
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
-homepage:            http://github.com/githubuser/FlipIt#readme
+homepage:            http://github.com/toru-mano/FlipIt
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2016 Author Here
-category:            Web
+author:              Toru Mano
+maintainer:          toru.mano@gmail.com
+copyright:           2016 Toru Mano
+category:            Game
 build-type:          Simple
 extra-source-files:  src/finiteGauss.h, src/flipItSolver.h
 cabal-version:       >=1.10
@@ -22,8 +22,8 @@ library
                      , random
                      , array
   default-language:    Haskell2010
-  c-sources:	       src/finiteGauss.c, src/flipItSolver.c
-  include-dirs:	       src
+  c-sources:           src/finiteGauss.c, src/flipItSolver.c
+  include-dirs:        src
 
 executable FlipIt-exe
   hs-source-dirs:      app
@@ -48,4 +48,4 @@ test-suite FlipIt-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/FlipIt
+  location: https://github.com/toru-mano/FlipIt
