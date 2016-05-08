@@ -32,13 +32,13 @@ stack build
 
 ## Usage
 
-To start two color 5x5 size game.
+To start a two color 5x5 size game.
 
 ```sh
 stack exec FlipIt-exe
 ```
 
-To start three color 6x6 size game.
+To start a three color 6x6 size game.
 ```sh
 stack exec -- FlipIt-exe 3 6
 ```
